@@ -1,0 +1,104 @@
+body {
+    font-family: 'Calibri', sans-serif;
+    color: #050404;
+}
+
+
+#work-section {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+}
+
+.card {
+    margin-bottom: 30px;
+    border: 1px solid #00ccff;
+    border-radius: 15px;
+}
+
+.card-img-top {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-weight: bold; /* Moved here */
+}
+
+.card-text {
+    font-size: 16px;
+    color: #0a0a0a;
+}
+
+#skills-section {
+    background-color: #dfdada;
+    padding: 40px 0;
+}
+
+.skills-box {
+    border: 2px solid #333030;
+}
+
+.skills-box h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+.skills-box ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.skills-box ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.skills-box ul li:hover {
+    color: #fffb00;
+    cursor: crosshair;
+}
+
+#about-section {
+    background-color: #f1eded;
+    padding: 60px 0;
+}
+
+#about-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#about-section p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+#about-section address {
+    font-style: normal;
+}
+
+#about-section a img {
+    width: 40px;
+    height: auto;
+    margin-right: 15px;
+}
+
+#about-section address p {
+    margin-bottom: 10px;
+}
+
+.justified-text {
+    text-align: justify;
+    text-align-last: justify;
+}
+
